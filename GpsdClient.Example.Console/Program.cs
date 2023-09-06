@@ -16,7 +16,7 @@ namespace GpsdClient.Example.Console
 
             var info = new GpsdInfo()
             {
-                Address = "172.30.10.115",
+                Address = "127.0.0.1",
                 ReadFrequency = 5000
                 //Port = 2947
             };
