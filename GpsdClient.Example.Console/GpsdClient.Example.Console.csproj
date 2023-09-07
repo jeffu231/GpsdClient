@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <AssemblyTitle>GpsdClient.Example.Console</AssemblyTitle>
+    <Product>GpsdClient.Example.Console</Product>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <RootNamespace>GpsdClient.Example.Console</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GpsdClient\GpsdClient.csproj" />
+  </ItemGroup>
+</Project>

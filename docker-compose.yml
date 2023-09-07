@@ -1,0 +1,17 @@
+################################################################################
+# gpsd-nmea-simulator Compose
+################################################################################
+# docker-compose -f docker-compose.yml -p gpsd-nmea-simulator up
+################################################################################
+version: "3.7"
+
+services:
+  gpsd-nmea-simulator:
+    image: knowhowlab/gpsd-nmea-simulator
+    restart: unless-stopped
+
+    platform: linux/amd64
+
+    ports:
+      - "2947:2947"
+      - "8888:8888"

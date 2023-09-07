@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyTitle>GpsdClient</AssemblyTitle>
+    <Product>GpsdClient</Product>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <RootNamespace>GpsdClient</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/jeffu231/GpsdClient</RepositoryUrl>
+    <Description>.NET library for reading GPSD information</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.IO.Ports" Version="7.0.0" />
+  </ItemGroup>
+</Project>
