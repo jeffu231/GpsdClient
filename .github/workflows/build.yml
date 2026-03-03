@@ -10,11 +10,11 @@ jobs:
       contents: read
     
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v5
         with:
-          dotnet-version: '7.0.x'
+          dotnet-version: '8.0.x'
           source-url: https://nuget.pkg.github.com/jeffu231/index.json
         env:
           NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -27,4 +27,4 @@ jobs:
       - name: Create the package
         run: dotnet pack -c Release GpsdClient
       - name: Publish the package to GPR
-        run: dotnet nuget push GpsdClient/bin/Release/*.nupkg
+        run: dotnet nuget push --api-key ${{ secrets.NUGET_API_KEY }} GpsdClient/bin/Release/*.nupkg
