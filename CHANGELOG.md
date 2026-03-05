@@ -1,4 +1,11 @@
 BuildTestConsole Changelog
+<a name="1.0.3"></a>
+## [1.0.3](https://www.github.com/jeffu231/GpsdClient/releases/tag/v1.0.3) (2026-03-05)
+
+### Bug Fixes
+
+* Fix version in example project ([711b2c8](https://www.github.com/jeffu231/GpsdClient/commit/711b2c80c6c132fad51e65a8020f0cf4a5e72581))
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://www.github.com/jeffu231/GpsdClient/releases/tag/v1.0.2) (2026-03-05)
 
