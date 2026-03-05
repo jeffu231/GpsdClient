@@ -1,4 +1,11 @@
 BuildTestConsole Changelog
+<a name="1.0.4"></a>
+## [1.0.4](https://www.github.com/jeffu231/GpsdClient/releases/tag/v1.0.4) (2026-03-05)
+
+### Continuous Integration
+
+* **Build:** Add checks for version in build package steps ([6ebd007](https://www.github.com/jeffu231/GpsdClient/commit/6ebd0072897696a3c48cab5c2da7cc4502a62419))
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://www.github.com/jeffu231/GpsdClient/releases/tag/v1.0.3) (2026-03-05)
 
