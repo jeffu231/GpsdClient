@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <AssemblyTitle>GpsdClient.Example.Console</AssemblyTitle>
     <Product>GpsdClient.Example.Console</Product>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <RootNamespace>GpsdClient.Example.Console</RootNamespace>
   </PropertyGroup>
   <ItemGroup>

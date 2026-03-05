@@ -1,4 +1,15 @@
 BuildTestConsole Changelog
+<a name="1.0.5"></a>
+## [1.0.5](https://www.github.com/jeffu231/GpsdClient/releases/tag/v1.0.5) (2026-03-05)
+
+### Bug Fixes
+
+* **Exmaple:** Fix the example startup class to be static ([965f329](https://www.github.com/jeffu231/GpsdClient/commit/965f329cbd2ec507090fa0e411b8636c4ac0332d))
+
+### Continuous Integration
+
+* **Package:** Add the readme to the nuget package file ([11b75bb](https://www.github.com/jeffu231/GpsdClient/commit/11b75bb73721cf91e245ece3bb11c7e91d714206))
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://www.github.com/jeffu231/GpsdClient/releases/tag/v1.0.4) (2026-03-05)
 
