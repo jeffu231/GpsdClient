@@ -9,8 +9,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/jeffu231/GpsdClient</RepositoryUrl>
     <Description>.NET library for reading GPSD information</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath=""/>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="System.IO.Ports" Version="10.0.3" />
   </ItemGroup>
