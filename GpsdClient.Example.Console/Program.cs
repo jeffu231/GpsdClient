@@ -3,7 +3,7 @@ using GpsdClient.Models.Events;
 
 namespace GpsdClient.Example.Console
 {
-    public class Program
+    public static class Program
     {
         private delegate bool EventHandler();
         private static EventHandler _eventHandler;
