@@ -70,10 +70,13 @@ jobs:
         run: echo "$(versionize changelog)"
         
       - name: Build
+        if: steps.versionize.outcome == 'success'
         run: dotnet build -c Release --no-restore
         
       - name: Create the package
+        if: steps.versionize.outcome == 'success'
         run: dotnet pack -c Release GpsdClient
         
       - name: Publish the package to GPR
+        if: steps.versionize.outcome == 'success'
         run: dotnet nuget push --api-key ${{ secrets.NUGET_API_KEY }} GpsdClient/bin/Release/*.nupkg
