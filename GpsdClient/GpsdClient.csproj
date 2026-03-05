@@ -4,7 +4,6 @@
     <OutputType>Library</OutputType>
     <AssemblyTitle>GpsdClient</AssemblyTitle>
     <Product>GpsdClient</Product>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
     <Version>1.0.1</Version>
     <RootNamespace>GpsdClient</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

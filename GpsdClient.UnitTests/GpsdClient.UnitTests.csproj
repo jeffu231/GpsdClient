@@ -4,8 +4,7 @@
     <OutputType>Library</OutputType>
     <AssemblyTitle>GpsdClient.UnitTests</AssemblyTitle>
     <Product>GpsdClient.UnitTests</Product>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.1</Version>
     <RootNamespace>GpsdClient.UnitTests</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
